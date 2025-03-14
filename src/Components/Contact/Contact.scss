@@ -18,16 +18,16 @@
     flex-direction: column;
     gap: 40px;
     @include mobile {
-     gap:20px;
+     gap:5px;
      text-align: center;
      align-items: center;
-     margin-top:70px;
     }
     h1 {
       font-size: 100px;
       line-height: 88px;
       @include mobile {
        font-size: 36px;;
+       letter-spacing: 2px;;
        }
     }
     p {
@@ -42,7 +42,7 @@
 
     @include mobile{
       width:100%;
-      padding:50px;
+      padding:30px;
     }
 
 

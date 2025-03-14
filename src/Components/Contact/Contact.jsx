@@ -103,7 +103,7 @@ const Contact = () => {
             required
           />
           <textarea
-            rows={8}
+            rows={5}
             placeholder="Message"
             name="message"
             autoComplete="off"
