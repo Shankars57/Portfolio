@@ -1,0 +1,15 @@
+@import "../../App.scss";
+.cursor {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+
+  @include mobile {
+    display: none;
+  }
+}
