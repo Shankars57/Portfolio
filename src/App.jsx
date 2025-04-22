@@ -10,7 +10,7 @@ import Cursor from "./Components/Cursor/Cursor";
 const App = () => {
   return (
     <div>
-      {/* <Cursor /> */}
+      <Cursor />
       <section id="Home">
         <NavBar />
         <Hero />

@@ -10,7 +10,7 @@ const slideVariants = {
     transition: {
       duration: 20,
       repeat: Infinity,
-      repeatType:"mirror"
+      repeatType: "mirror",
     },
   },
 };
@@ -44,12 +44,12 @@ const textVariants = {
       repeat: Infinity,
     },
   },
-  scale:{
-    scale:1.1
+  scale: {
+    scale: 1.1,
   },
-  tap:{
-    scale:0.9
-  }
+  tap: {
+    scale: 0.9,
+  },
 };
 const Hero = () => {
   return (
@@ -66,10 +66,20 @@ const Hero = () => {
             Web Developer and UI Designer.
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}  whileHover="scale" whileTap="tap" >
-              See the latest works
+            <motion.button
+              variants={textVariants}
+              whileHover="scale"
+              whileTap="tap"
+            >
+              <a href="#Services">See the latest works</a>
             </motion.button>
-            <motion.button variants={textVariants} whileHover="scale" whileTap="tap">Contact Me</motion.button>
+            <motion.button
+              variants={textVariants}
+              whileHover="scale"
+              whileTap="tap"
+            >
+              <a href="#Contact">Contact Me</a>
+            </motion.button>
           </motion.div>
           <motion.img
             animate="scrollButton"

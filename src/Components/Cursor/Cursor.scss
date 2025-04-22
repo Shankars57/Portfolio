@@ -13,3 +13,8 @@
     display: none;
   }
 }
+.content:hover ~ .cursor {
+  width: 60px;  /* Make cursor bigger */
+  height: 60px;
+  background: red; /* Change background */
+}

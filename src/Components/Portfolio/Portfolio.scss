@@ -19,6 +19,9 @@
       height: 5px;
       border-radius: 20px;
       background-color: white;
+      @include mobile{
+        z-index:-1;
+      }
     }
   }
   .container {
@@ -49,9 +52,10 @@
         }
         img {
           height: 100%;
+          width:100%;
           object-fit: cover;
           @include mobile {
-            width: 100%;
+            
             border:5px solid white;
             height:70%;
          
@@ -90,6 +94,7 @@
           padding: 10px;
           width: 200px;
           cursor: pointer;
+          z-index:999;
         }
       }
     }
